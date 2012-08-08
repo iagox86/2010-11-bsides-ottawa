@@ -1,0 +1,13 @@
+ {
+   "host" : "code.google.com",
+   "radio_type" : "unknown",
+   "request_address" : true,
+   "version" : "1.1.0",
+   "wifi_towers" :
+   [ 
+     {
+       "mac_address" : "]] ..  mac .. [[",
+       "signal_strength" : -80
+     }
+   ] 
+ }

@@ -1,0 +1,69 @@
+- Talk about myself
+  - Past, present
+  - Tenable
+
+- Define some terms
+  - NSE
+  - Lua
+  - NSELib
+  - NSEDoc
+
+- Running scripts
+  - Scripts are included with Nmap
+    - Where are they installed?
+    - Where do I put my own?
+  - What you need to know to run them
+    - Names
+      - NSEDoc
+      - Filesystem
+      - GUI
+    - Categories
+      - Run scripts by category instead of name
+      - List the categories, meanings
+    - script-args
+  - Multiple ways to use
+    - Commandline
+      - Show some examples
+      - Show the sexy syntax
+    - Zenmap
+      - Show some examples
+  - Run a couple scripts and discuss their output
+    - smb-os-discovery
+    - smb-enum-users
+    - http-enum
+    - http-spider
+  - More details on http-enum Web fingerprints
+    - Show off the fingerprint file
+
+- Writing scripts
+  - Scripts are written in Lua
+  - Important concepts:
+    - nmap-dev, Fyodor, David
+    - nselib
+    - portrule, hostrule, prerule, postrule
+    - Registry
+      - Script-args
+      - stdnse.get_script_args()
+    - Shortport library
+      - What it is, how to use it, where to find info
+    - action()
+    - Output
+      - stdnse.format_output()
+    - sample-script.nse
+  - Show where scripts/nselib are stored
+  - Open a script/nselib
+  - Show the documentation portal, go over some categories
+    - ??
+  - Show a script
+    - smb-os-discovery
+    - http-enum
+    - http-spider
+  - Write a script
+    - dns-lookup
+      - Perform a A, CNAME, and MX lookup against a target
+      - Add discovered servers to our scan
+  - Write another script
+    - ??
+  - Testing scripts
+    - -iR
+

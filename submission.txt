@@ -1,0 +1,8 @@
+Title: The Nmap Scripting Engine: Making Nmap work for you! 
+
+
+The Nmap Scripting Engine, or NSE, has brought Nmap's power to an unprecedented level. More than just a portscanner, Nmap's Scripting Engine has the speed and power to scan thousands of hosts in parallel, quickly and with amazing results. Whether building packets from the ground up (such as probing DHCP or finding sniffers) or using high-level protocols (such as MSRPC or AFS), NSE makes it easy. In this highly technical presentation, the audience will be introduced to some interesting NSE scripts, be shown in detail how they work, and learn how to write their own from scratch. Learn how to make Nmap work for you! 
+
+Author/presenter bio:
+ Ron Bowes entered the security industry during highschool when he taught himself assembly and reverse engineered the login sequences for several popular Blizzard titles (including Starcraft and Warcraft 3). Since then, he obtained a Bachelor of Computer Science at the University of Manitoba, and worked several jobs in the private industry before becoming a Security Analyst for a division of the government. Outside of his day job, he runs a security consulting company (Dash9 Security), he is an active Nmap developer, he compiles and disseminates research data on leaked or cracked passwords, and he currently maintains and developers dnscat, which implements reverse shells over DNS in new and clever ways. 
+
